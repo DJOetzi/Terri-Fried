@@ -1,0 +1,1 @@
+F:\rs_projects\terri_fried\target\release\terri_fried.exe: F:\rs_projects\terri_fried\src\entities\global_constants.rs F:\rs_projects\terri_fried\src\entities\mod.rs F:\rs_projects\terri_fried\src\entities\platform.rs F:\rs_projects\terri_fried\src\entities\player.rs F:\rs_projects\terri_fried\src\main.rs
