@@ -16,6 +16,8 @@ After participating in Ludum Dare 46, I challenged myself to port my entry to as
 After installing [raylib](https://github.com/raysan5/raylib/releases), execute ``make`` in the ``/raylib`` directory.
 #### SDL2 
 Tested with msys2. Install the `SDL2`, `SDL2_image`, `SDL2_mixer` and `SDL2_ttf` packages with `pacman`, then execute `make` in the windows/sdl2 folder. Finally, copy the resources folder to the output executable location.
+#### RUST - raylib
+Go to the ``windows/rust/raylib`` directory and type ``cargo run``
 ### PS Vita
 Compiling for PS Vita requires vitasdk. Then, execute ``cmake .&& make`` in the ``/psvita`` directory.
 ### Nintendo DS
