@@ -209,6 +209,7 @@ fn main() -> () {
                 let mut dhandle = rl.begin_drawing(&thread);
                 dhandle.clear_background(raylib::color::Color::color_from_normalized(Vector4::new(0.933, 0.894, 0.882, 1.0)));
                 dhandle.draw_text_ex(&font, "POLYMARS", Vector2::new((SCREEN_WIDTH / 2 - 54) as f32, (SCREEN_HEIGHT / 2 + 3) as f32), 32 as f32, 0 as f32, raylib::color::Color::color_from_normalized(Vector4::new(0.835, 0.502, 0.353, 1.0)));
+                dhandle.draw_text_ex(&font, "and DJ::Oetzi", Vector2::new((SCREEN_WIDTH / 2 - 50) as f32, (SCREEN_HEIGHT / 2 + 30) as f32), 24 as f32, 0 as f32, raylib::color::Color::color_from_normalized(Vector4::new(0.835, 0.502, 0.353, 1.0)));
                 dhandle.draw_texture(&splashegg_sprite, SCREEN_WIDTH/2 - 16, SCREEN_HEIGHT/2 - 16 - 23, Color::WHITE);
                 splash_timer += 1.0;
             }
